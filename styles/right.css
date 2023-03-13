@@ -1,0 +1,175 @@
+.right img {
+    width: 4.5rem;
+    border-radius: 50%;
+}
+
+.right {
+    margin-top: 2.24rem;
+}
+
+.right .top {
+    display: flex;
+    justify-content: end;
+    gap: 3.2rem;
+}
+
+.right .top button {
+    display: none;
+}
+
+.right .theme-toggler {
+    background: var(--clr-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.56rem;
+    width: 6.72rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+.right .theme-toggler span {
+    font-size: 1.92rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .theme-toggler span.active {
+    background: var(--clr-primary);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+
+.right .top .profile {
+    display: flex;
+    gap: 3.2rem;
+    text-align: right;
+}
+
+.right .top p {
+    font-size: 1.4rem;
+}
+
+.right .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.right .info p {
+    margin: 0;
+}
+
+.right .info small .text-muted {
+    margin-top: 2.5rem;
+}
+
+.recent-updates p {
+    font-size: 1.3rem;
+}
+
+.right .recent-updates {
+    margin-top: 1.6rem;
+}
+
+.right .recent-updates h2 {
+    margin-bottom: 1.28rem;
+}
+
+.right .recent-updates .updates {
+    background: var(--clr-white);
+    padding: var(--card-padding);
+    border-radius: var(--card--border--radius);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .recent-updates .updates:hover {
+    box-shadow: none;
+}
+
+.right .recent-updates .updates .text-muted {
+    color: var(--clr-info-dark);
+}
+
+.right .recent-updates .updates .update {
+    display: grid;
+    grid-template-columns: 4.16rem auto;
+    gap: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.right .recent-updates .updates .update p {
+    margin-bottom: 0;
+}
+
+/* ================= SALES ANALYTICS==================== */
+.right .sales-analytics {
+    margin-top: 3.2rem;
+}
+
+.right .sales-analytics h2 {
+    margin-bottom: 1.28rem;
+}
+
+.right .sales-analytics .item {
+    background: var(--clr-white);
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 1.2rem;
+    padding: 2.4rem var(--card-padding);
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .sales-analytics .item:hover {
+    box-shadow: none;
+}
+
+.right .sales-analytics .item .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0;
+    width: 100%;
+}
+
+.right .sales-analytics .item .icon {
+    padding: 1.1rem;
+    color: var(--clr-white);
+    border-radius: 50%;
+    background: var(--clr-primary);
+    display: flex;
+}
+
+.right .sales-analytics .item.offline .icon {
+    background: var(--clr-danger);
+}
+
+.right .sales-analytics .item.customers .icon {
+    background: var(--clr-success);
+}
+
+.right .sales-analytics .add-products {
+    /* background: rgb(233, 112, 112); */
+    background: transparent;
+    border: 2px dashed var(--clr-primary);
+    color: var(--clr-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .sales-analytics .add-products div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right .sales-analytics .add-products div h3 {
+    font-weight: 600;
+}
